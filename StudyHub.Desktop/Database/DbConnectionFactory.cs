@@ -5,7 +5,7 @@ namespace StudyHub.Database;
 public static class DbConnectionFactory
 {
     private const string ConnectionString =
-        "Server=localhost;Port=3306;Database=studyhub_db;Uid=root;Pwd=root123;";
+        "Server=localhost;Port=3306;Database=studyhub_db;Uid=root;Pwd=;";
 
     public static MySqlConnection GetConnection()
     {
